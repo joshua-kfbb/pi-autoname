@@ -1,0 +1,16 @@
+{
+  "name": "pi-autoname",
+  "version": "1.0.0",
+  "description": "Auto-generate pi session titles from the first user message",
+  "keywords": [
+    "pi-package"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/pi-autoname.ts"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1"
+  }
+}
